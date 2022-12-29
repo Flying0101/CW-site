@@ -12,7 +12,7 @@ function Landing() {
 
     return (
         <section className="landing-section">
-            <img alt="main page picture" src={landingPic} className="main-pic" />
+            <img alt="dark laptop" src={landingPic} className="main-pic" />
 
             <div className="landing-container">
                 <h1 className="l-slogan">HELLOO HELLO HELOEO LITTLE SMURF</h1>
