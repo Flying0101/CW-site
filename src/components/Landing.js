@@ -8,11 +8,11 @@ import landingPic from '../images/frontpage.jpg';
 function Landing() {
 
 
- 
+  
 
     return (
         <section className="landing-section">
-            <img src={landingPic} className="main-pic" />
+            <img alt="main page picture" src={landingPic} className="main-pic" />
 
             <div className="landing-container">
                 <h1 className="l-slogan">HELLOO HELLO HELOEO LITTLE SMURF</h1>

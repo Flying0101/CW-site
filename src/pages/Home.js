@@ -3,7 +3,7 @@ import React from 'react';
 
 import Navbar from '../components/Navbar';
 import Landing from '../components/Landing';
-
+import Intro from '../components/Intro';
 
 function Home() {
 
@@ -14,6 +14,7 @@ function Home() {
         <div className="Home">
             <Navbar />
             <Landing />
+            <Intro />
         </div>
     )
 
