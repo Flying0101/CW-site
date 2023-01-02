@@ -1,36 +1,103 @@
-.intro-section-grid {
-    width: 90%;
+.service-section{ 
+    width: max(210px, 90%);
     margin: 0 auto;
-    padding: 2em 0;
+    padding: 4em 0;
+}
 
+.serv-h{ 
+    width: fit-content; 
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-size: 2rem ;
+
+    animation: myanimation 3s infinite;
+    text-align: center;
+
+}
+
+.serv-grid{ 
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-row: 1fr;
 
 }
 
-.intro-grid-div {
-    display: flex;
-    align-items: center;
+.s-grid-div{ 
+    width: max(240px, 80%);
+    margin: 0 auto;
+    color: white; 
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 8px 14px #c9c9c9cc;
+
 }
 
-.intro-anim {
-    width: max(310px, 80%);
-    max-width: 450px;
+
+.s-grid-h{ 
+    text-align: center;
+    padding: 20px 0;
+    width: fit-content; 
     margin: 0 auto;
 }
 
-.intro-header {
-    font-size: 1.7rem;
-    margin-bottom: 10px;
+.s-grid-inf{ 
+    padding-top: 20px; 
+    padding-bottom: 30px;
+    width: 90%;
+    margin: 0 auto;
+
 
 }
 
+
+@-webkit-keyframes myanimation {
+    0% {
+        color: rgb(0, 0, 0);
+    }
+
+    25% {
+        color: rgb(48, 9, 99);
+    }
+
+    50% {
+        color: rgb(121, 25, 177);
+    }
+
+    75% {
+        color: rgb(200, 104, 224);
+    }
+
+    100% {
+        color: rgb(121, 19, 204);
+    }
+}
+
+
+@keyframes myanimation {
+    0% {
+        color: rgb(48, 9, 99);
+    }
+
+    25% {
+        color: rgb(69, 14, 141);
+    }
+
+    50% {
+        color: rgb(121, 25, 177);
+    }
+
+    75% {
+        color: rgb(200, 104, 224);
+    }
+
+    100% {
+        color: rgb(121, 19, 204);
+    }
+}
 
 
 @media (max-width: 950px) {
 
-    .intro-section-grid {
+    .serv-grid {
         grid-template-columns: 1fr;
         grid-row: 1fr 1fr;
         row-gap: 40px;

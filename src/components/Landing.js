@@ -15,9 +15,9 @@ function Landing() {
             <img alt="dark laptop" src={landingPic} className="main-pic" />
 
             <div className="landing-container">
-                <h1 className="l-slogan">HELLOO HELLO HELOEO LITTLE SMURF</h1>
-                <p className="l-pre-info">A product landing page is a standalone web page created specifically for <br /> the purpose of selling a product.</p>
-                <button className="landing-cta">LEARN MORE</button>
+                <h1 className="l-slogan">Looksy, the place to find gifts</h1>
+                <p className="l-pre-info"><br /> Celebrate the spirit of giving with us, <br/> together we can suprise your loved ones!</p>
+                <button className="landing-cta">EXPLORE MORE</button>
             </div>
         </section>
     )

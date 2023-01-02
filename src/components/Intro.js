@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../css/Services.css';
+import '../css/Intro.css';
 
 import Lottie from "lottie-react";
 
