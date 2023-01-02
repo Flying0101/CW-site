@@ -6,6 +6,7 @@ import Landing from '../components/Landing';
 import Intro from '../components/Intro';
 import Services from '../components/Services';
 import Methods from '../components/Methods';
+import Reviews from '../components/Reviews';
 
 function Home() {
 
@@ -19,6 +20,7 @@ function Home() {
             <Intro />
             <Services />
             <Methods />
+            <Reviews />
         </div>
     )
 

@@ -1,0 +1,108 @@
+.review-section {
+
+    padding: 7em 0;
+}
+
+.review-header {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.review-info {
+
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.review-container {
+
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+
+.rev-d {
+    padding: 25px;
+    width: 95%;
+    max-width: 350px;
+    background: rgba(255, 255, 255, 0.39);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+}
+
+.rev-stars {
+    margin-bottom: 10px;
+}
+
+.rev-quote {
+    margin-bottom: 10px;
+}
+
+.rev-feedback {
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
+    line-height: 1.3rem;
+}
+
+.star-icons {
+    font-size: 1.5rem;
+    color: rgb(255, 136, 0);
+}
+
+.rev-company {
+    color: blueviolet;
+    font-weight: bold;
+
+}
+
+
+
+
+@-webkit-keyframes myanimation {
+    0% {
+        color: rgb(0, 0, 0);
+    }
+
+    25% {
+        color: rgb(48, 9, 99);
+    }
+
+    50% {
+        color: rgb(121, 25, 177);
+    }
+
+    75% {
+        color: rgb(200, 104, 224);
+    }
+
+    100% {
+        color: rgb(121, 19, 204);
+    }
+}
+
+
+@keyframes myanimation {
+    0% {
+        color: rgb(48, 9, 99);
+    }
+
+    25% {
+        color: rgb(69, 14, 141);
+    }
+
+    50% {
+        color: rgb(121, 25, 177);
+    }
+
+    75% {
+        color: rgb(200, 104, 224);
+    }
+
+    100% {
+        color: rgb(121, 19, 204);
+    }
+}
