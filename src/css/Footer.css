@@ -6,9 +6,9 @@
    color: white;
 
 }
- 
 
- 
+
+
 .f-contact-container {
    position: relative;
    top: -80px;
@@ -149,7 +149,7 @@
    }
 
    .f-contact-container {
-      width: max(280px, 50%);
+      width: max(280px, 90%);
       margin: 0 auto;
       display: block;
    }
