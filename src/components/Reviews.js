@@ -21,7 +21,7 @@ function Reviews() {
                     <div className="rev-stars"><FaStar className="star-icons"/> <FaStar className="star-icons"/> <FaStar className="star-icons"/> <FaStar className="star-icons"/> <FaStar className="star-icons"/> </div>
                     <h3 className="rev-quote" >"Amazing short copy"</h3>
                     <p className="rev-feedback" >we needed a copywriter for our startup and with help of SM-consulting we got a great fundament to keep developing on, we will be back in the future be sure of it!</p>
-                    <p className="rev-company">- Looksy <br/> /Ecom</p>
+                    <p className="rev-company">- Looksypro <br/> /Ecom</p>
                 </div>
 
             </div>

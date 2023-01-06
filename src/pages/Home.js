@@ -7,6 +7,7 @@ import Intro from '../components/Intro';
 import Services from '../components/Services';
 import Methods from '../components/Methods';
 import Reviews from '../components/Reviews';
+import Footer from '../components/Footer';
 
 function Home() {
 
@@ -21,6 +22,7 @@ function Home() {
             <Services />
             <Methods />
             <Reviews />
+            <Footer />
         </div>
     )
 
