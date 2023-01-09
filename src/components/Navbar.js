@@ -22,10 +22,10 @@ function Navbar() {
                 <p className="logo"><strong id="logo-sm">SM-</strong>consulting</p>
 
                 <ul className="nav-ul">
-                    <li className="nav-li">About</li>
-                    <li className="nav-li">Reviews</li>
-                    <li className="nav-li">Services</li>
-                    <li className="nav-li">Contact</li>
+                    <li className="nav-li">Om</li>
+                    <li className="nav-li">Kundcase</li>
+                    <li className="nav-li">Tjänster</li>
+                    <li className="nav-li">Kontakt</li>
                 </ul>
 
                 <div className="resp-container">
@@ -46,10 +46,10 @@ function Navbar() {
             <nav className="nav-modal">
                 <FaTimes className="modal-menu" onClick={() => handleClick()} />
                 <ul className="m-nav-ul">
-                    <li className="m-nav-li">About</li>
-                    <li className="m-nav-li">Reviews</li>
-                    <li className="m-nav-li">Services</li>
-                    <li className="m-nav-li">Contact</li>
+                    <li className="m-nav-li">Om</li>
+                    <li className="m-nav-li">Kundcase</li>
+                    <li className="m-nav-li">Tjänster</li>
+                    <li className="m-nav-li">Kontakt</li>
                 </ul>
             </nav>
         )}</div>

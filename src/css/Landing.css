@@ -31,9 +31,10 @@
 
 
 .l-slogan {
-    font-size: clamp(1.7rem, 5vw, 2.1rem);
-    margin-bottom: 10px;
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
     letter-spacing: 1px;
+    margin-bottom: 7px;
+    text-decoration: 3px underline rgb(215, 56, 255);
 }
 
 .l-pre-info {
@@ -56,5 +57,12 @@
     cursor: pointer;
     font-size: 0.95rem;
     transition-duration: 0.3s;
+
+}
+
+
+.landing-cta:active {
+    border: 0.5px solid rgb(215, 56, 255);
+    color: rgb(215, 56, 255);
 
 }
